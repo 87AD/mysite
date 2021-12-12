@@ -47,13 +47,3 @@ label span i {
 label input:checked ~ span i {
   left: 84px;
 }
-label span i::before {
-  content: "";
-  position: absolute;
-  top: 22px;
-  left: 12px;
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #fe0000;
-}
