@@ -1,73 +1,57 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="images/87.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <script src="index.js" > </script>
-    <title>87AD</title>
+
+    <!--Css-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Js-->
+    <script src="js/index.js"></script>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap" rel="stylesheet">
+
+    <title>87_aD</title>
+
 </head>
 <body>
-    <div class="simplebar">
-        <ul>
-            <li class="list active">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="home-outline"></ion-icon>
-                    </span>
-                    <span class="text">Home</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="person-outline"></ion-icon>
-                    </span>
-                    <span class="text">Profile</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="chatbox-outline"></ion-icon>
-                    </span>
-                    <span class="text">Messages</span>
-                </a>
-            </li>
-            <li class="list">
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="camera-outline"></ion-icon>
-                    </span>
-                    <span class="text">Photos</span>
-                </a>
-            </li>
-            <li class="list">
-                
-                <a href="#">
-                    <span class="icon">
-                        <ion-icon name="settings-outline"></ion-icon>
-                    </span>
-                    <span class="text">Settings</span>
-                </a>
-            </li>
-            <div class="indicator"></div>
-        </ul>
+  <!-- Title -->
+  <div id = "title">87AD ( Unfinished )</div>
+  <div class = "l1"></div>
+  <img src="images/ad.png" width="70" height="70" style="display: block; margin-left: 35.5%; margin-top: -90px">
+
+
+  <div class = "main">
+    <div class = "l2"></div>
+    <section class="work">
+      <h1 id="subtitle">Recent Work</h1>
+      <div class="wkimg">      
+        <a href="https://gamebanana.com/mods/356540" target="_blank">
+          <img src="images/work/dan.png"> <!--dan-->
+        </a>       
+      </div>   
+      <div class="curSelected">
+        Friday Night Funkin` : Vs Dan Mod<br>I participated as a programmer<br>&nbsp;
+     </div>         
+      <div class="wkimg">
+        <img src="images/work/tx.png"> <!--tx-->     
     </div>
-
-    <script>
-        const list = document.querySelectorAll('.list');
-        function activeLink(){
-            list.forEach((item) =>
-            item.classList.remove('active'))
-            this.classList.add('active')
-        }
-         list.forEach((item) =>
-         item.addEventListener('click', activeLink));
-    </script>
-
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <div class="curSelected">
+      Friday Night Funkin` : Vs T&X Mod ( WIP )<br>I participated as a programmer<br>Link : not yet<br>&nbsp;
+    </div>
+      <div class="wkimg">
+          <img src="images/work/andrew.png"> <!--andrew-->       
+      </div>   
+      <div class="curSelected">
+        Friday Night Funkin` : Toxic Chaos Vs andrew ( WIP )<br>I participated as a programmer<br>Link : not yet<br>&nbsp;
+      </div> 
+    </section>
+  </div>
 </body>
 </html>
