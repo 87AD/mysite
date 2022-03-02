@@ -5,6 +5,7 @@
 // - Balazs Galambosi: maintainer (CHANGELOG.txt)
 // - Patrick Brunner (patrickb1991@gmail.com)
 // - Michael Herf: ssc_pulse Algorithm
+// i stolen
 
 function ssc_init() {
     if (!document.body) return;
