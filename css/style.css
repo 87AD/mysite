@@ -1,71 +1,64 @@
 body {
+	background: linear-gradient(-45deg, #8977ad, #002ec7, #707ca5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 80vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.title {
   color: white;
-
-  background-color: #262626;
+  align-items: center;
+  
 }
 
-#title {
-  text-align: center;
-  font-size: 45px;
-  margin: 150px;
+.Icon {
+  color:white;
+  padding: 10px;
+  font-size: calc(35px + 2.5vmin);
+  width: 200px;
 }
 
-.l1 {
-  display: block;
+.box {
+  width: 600px;
+  height: 5px;
+  border-radius: 10px;
   background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -125px;
-
-  width: 800px;
-  height: 3px;
 }
 
-.main p {
-  padding: 100px;
+.back {
+  align-items: center;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2.5vmin);
+  justify-content: center;
+  min-height: 80vh;
 }
 
-.l2 {
-  display: block;
-  background-color: white;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: -85px;
-
-  width: 800px;
-  height: 3px;
-}
-
-#subtitle {
-  font-size: 42.5px;
-  text-align: center;
-  margin-top: 1000px;
-}
-
-.curSelected {
-  font-size: 50px;
-  text-align: center;
-}
-
-.wkimg {
+.back {
   position: relative;
-
-  width: 50%;
-  height: 50%;
-
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.wkimg img {
-  width: 100%;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  transition: opacity 0.35s;
+.back ul {
+  display: flex;
+  width: 335px;
 }
 
-.wkimg:hover img {
-  transition: all 0.13s linear;
-  opacity: 0.35;
+.back ul li {
+  list-style: none;
 }
